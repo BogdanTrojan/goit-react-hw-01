@@ -1,0 +1,73 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+  padding: 15px 0;
+  width: 800px;
+  height: 525px;
+  color: black;
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: crimson;
+  margin: 30px 0;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.FaPerson,
+.FaMapLocationDot {
+  margin-right: 5px;
+  color: crimson;
+}
+
+.tag {
+  margin: 0 5px;
+}
+
+.location {
+  margin: 0;
+}
+
+.tag,
+.location {
+  font-size: 20px;
+  color: black;
+}
+
+.user {
+  margin-bottom: 30px;
+}
+
+.stats-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: crimson;
+}
+
+.stats-list-item {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
